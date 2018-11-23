@@ -1,0 +1,182 @@
+*{margin: 0;padding: 0;
+    box-sizing: border-box;}
+    ul,ol{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    body{
+        cursor: pointer;
+    }
+    /* header */
+    header{
+        width: 100%;
+        height:70px;
+        position: relative;
+     }
+     header #h_dl1{
+         overflow: hidden;
+         width: 100%;
+         height: 70px;
+         background: #fff;
+         position: fixed;
+         z-index:9999;
+         border-bottom: 1px solid #ECECEC;
+         box-shadow:  3px 3px 3px #ECECEC;
+     }
+     header #h_dl1 dt{
+         float: left;
+         width: 10%;
+         /* height: 60px; */
+     }
+     header #h_dl1 dt img{
+         height: 68px;
+           background-size: 98%;
+     }
+     header #h_dl1 dd{
+         float:right;
+         width: 8%;
+         height: 70px;
+         line-height: 70px;
+         margin-right: 10px;
+     }
+     header #h_dl1 dd a{
+         color: #6A6A6A;
+         height: 50px;
+         position: relative;
+     }
+     header #h_dl1 dd:hover a::after{
+         transition: .8s all;
+         width: 40px;
+     }
+     header #h_dl1 dd a::after{
+           content: "";
+           display: block;
+           position: absolute;
+           background: #999;
+           width: 0px;
+           height: 1px;
+           bottom: -8px;
+           left: 0px;
+     }
+     header #h_dl1 dd:last-child a::after{
+         content: "";
+         display: block;
+         width: 35px;
+         height: 1px;
+         bottom: -8px;
+         left:0px;
+         background-color: #999;
+     }
+     /* main */
+     main{
+         width: 100%;
+         height: auto;
+     }
+     main #banner{
+         width: 100%;
+         height: 450px;
+         background: url("http://qty83k.creatby.com/materials/95622/origin/b33faf3d3b5db465e729497cddbc7598_origin.jpg") no-repeat center center;
+     }
+     /* 服务优势 */
+     main .fwys{
+         width: 90%;
+         height: 700px;
+         margin: 0px auto;
+         margin-top: 20px;
+       
+     }
+     main .fwys ul{
+         width: 100%;
+         height: 100px; 
+     }
+     main .fwys ul li{
+        font-size: 24px;
+        margin-bottom: 0px;
+        line-height: 1.3em; padding: 3% 0 0 3%;
+     }
+     main .fwys ul li span{
+        font-size: 12px;
+        padding-left: 1px;
+        color: #777;
+     }
+     main .fwys dl{
+         width: 30%;
+         height: 230px;
+         padding: 1%;
+
+         float: left;
+         margin-left: 2%;
+     }
+     main .fwys dl dt{
+        width: 50px;
+        height: 70px;
+        margin: 4%;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url(http://qty83k.creatby.com/materials/95622/origin/cb9431349ef89cd4729f36a46d27e6b7_origin.png);
+     }
+     main .fwys dl:nth-of-type(2) dt{
+      background: url("../images/31.png") no-repeat ;
+      background-size:100%;
+     }
+     main .fwys dl:nth-of-type(3) dt{
+        background: url("../images/32.png") no-repeat ;
+        background-size:100%;
+       }
+       main .fwys dl:nth-of-type(4) dt{
+           height: 70px;
+        background: url("../images/33.png") no-repeat center center;
+        background-size:100%;
+       }
+       main .fwys dl:nth-of-type(5) dt{
+        background: url("../images/34.png") no-repeat ;
+        background-size:100%;
+       }
+     main .fwys dl dd:nth-of-type(1){
+         width: 80%;
+         height: 38px;
+         border-bottom: 1px solid #EBEBEB;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-right: 5px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: SimSun;
+     }
+     main .fwys dl dd:nth-of-type(2){
+        min-height: 0px;
+        height: 1px;
+        width: 30px;
+        background-color: rgba(51,51,51,1);
+        margin-bottom: 5%;
+     }
+     main .fwys dl dd:nth-of-type(3) a{
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 2em;
+        color: #999;
+     }
+       /* footer */
+footer{
+    position: fixed;
+    bottom: 0px;
+ width: 100%;
+ height: 70px;
+ line-height: 70px;
+ background: #222222;
+}
+footer .footer_ul {
+    width: 60%;
+    height: 40px;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 40px;
+}
+footer .footer_ul li{
+    font-size: 18px; 
+    color: #fff;
+    z-index: 9999;
+}

@@ -1,0 +1,255 @@
+*{margin: 0;padding: 0;
+box-sizing: border-box;}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    cursor: pointer;
+}
+/* header */
+header{
+    width: 100%;
+    height:70px;
+    position: relative;
+ }
+ header #h_dl1{
+     overflow: hidden;
+     width: 100%;
+     height: 70px;
+     background: #fff;
+     position: fixed;
+     z-index:9999;
+     border-bottom: 1px solid #ECECEC;
+     box-shadow:  3px 3px 3px #ECECEC;
+ }
+ header #h_dl1 dt{
+     float: left;
+     width: 10%;
+     /* height: 60px; */
+ }
+ header #h_dl1 dt img{
+     height: 68px;
+       background-size: 98%;
+ }
+ header #h_dl1 dd{
+     float:right;
+     width: 8%;
+     height: 70px;
+     line-height: 70px;
+     margin-right: 10px;
+ }
+ header #h_dl1 dd a{
+     color: #6A6A6A;
+     height: 50px;
+     position: relative;
+ }
+ header #h_dl1 dd:hover a::after{
+     transition: .8s all;
+     width: 40px;
+ }
+ header #h_dl1 dd a::after{
+       content: "";
+       display: block;
+       position: absolute;
+       background: #999;
+       width: 0px;
+       height: 1px;
+       bottom: -8px;
+       left: 0px;
+ }
+ header #h_dl1 dd:last-child a::after{
+     content: "";
+     display: block;
+     width: 35px;
+     height: 1px;
+     bottom: -8px;
+     left:0px;
+     background-color: #999;
+ }
+ /* main */
+ main{
+     overflow: hidden;
+     width: 100%;
+     height: 1050px;
+     background: #FAFAFA;
+     position: relative;
+   
+ }
+ main #lb{
+     width: 13%;
+     height: 400px;
+     padding: 10px;
+     border-top: 2px solid #999;
+     position: absolute;
+     top:70px;
+     left:20px;float: left;  
+     z-index: 999;
+ }
+main #lb li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #B9B9B9;
+    font-size: 13px;
+    text-align: center;
+}
+main #lb li:first-child{
+    color: #555555;
+}
+section{
+    position: absolute;
+    top:0px;
+    float:right;
+    width:100%; 
+    height: 1000px;
+    vertical-align: top;
+}
+.lb1{
+background: #fff;
+
+}
+
+.lb2{
+    background:#fff;
+}
+.lb3{
+    background: #fff;
+}
+.lb4{
+    background: #fff;
+}
+
+.lb5{
+    background:#fff;
+}
+
+.lb6{
+    background:#fff;
+}
+/*多图片*/
+.dtp{
+    width: 87%;
+    height: 1000px;
+    min-height:80px;
+    margin:  5% 0% 2% 18%;
+}
+
+main .dtp ul{
+   width: 22%;
+   height: 284px;
+   float: left;
+   padding-left: 18px;
+}
+main .dtp ul li{
+    width: 100%;
+    height: 226px;
+    overflow: hidden;
+}
+main .dtp ul li a{
+    display: block;
+    width: 100%;
+    height: 226px;
+    background-size: 100%;
+    transition: 1s all;
+    vertical-align: top; 
+}
+main .dtp ul li a img{
+    display: block;
+    width: 100%;
+    height: 226px;
+   background-size: 100%; 
+   vertical-align: top; 
+}
+/* main .dtp ul .li1 a{
+    background:url("../images/10.jpg") no-repeat;
+}
+main .dtp ul .li2 a{
+    background:url("../images/3.jpg") no-repeat;
+}
+main .dtp ul .li3 a{
+    background:url("../images/11.jpg") no-repeat;
+}
+main .dtp ul .li4 a{
+    background:url("../images/14.jpg") no-repeat;
+}
+main .dtp ul .li5 a{
+    background:url("../images/15.jpg") no-repeat;
+}
+main .dtp ul .li6 a{
+    background:url("../images/16.jpg") no-repeat;
+}
+main .dtp ul .li7 a{
+    background:url("../images/17.jpg") no-repeat;
+}
+main .dtp ul .li8 a{
+    background:url("../images/18.jpg") no-repeat;
+}
+main .dtp ul .li10 a{
+    background:url("../images/jpxl_1.jpg") no-repeat;
+}
+main .dtp ul .li11 a{
+    background:url("../images/jpxl_2.jpg") no-repeat;
+}
+main .dtp ul .li12 a{
+    background:url("../images/jpxl_3.jpg") no-repeat;
+}
+main .dtp ul .li13 a{
+    background:url("../images/jpxl_4.jpg") no-repeat;
+} */
+main .dtp ul .li9 a{
+        overflow: hidden;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 60px;font-weight: bold;
+        font-size: 15px; 
+        color:#000; transition: 0.4s all;
+    }
+main .dtp ul .li9 span{
+        font-size: 14px;
+        font-weight: bold;
+        transition: 1.2s all;
+        color: #999;
+    }
+main .dtp ul .li9 .jt{
+    position: absolute;
+    right:-25px;
+    font-weight:bolder;
+    font-size: 25px;
+}
+main .dtp ul:hover li:nth-of-type(1) a{
+   transform: scale(1.3);
+}
+main .dtp ul:hover a{
+    padding-left: 30px;
+}
+main .dtp ul:hover span{
+    padding-left: 3px;
+}
+main .dtp ul:hover .jt{
+   padding-right: 50px;
+}
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0px;
+ width: 100%;
+ height: 70px;
+ line-height: 70px;
+ background: #222222;
+}
+footer .footer_ul {
+    width: 60%;
+    height: 40px;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 40px;
+}
+footer .footer_ul li{
+    font-size: 18px; 
+    color: #fff;
+    z-index: 9999;
+}

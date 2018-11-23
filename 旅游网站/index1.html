@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旅游网站</title>
+    <link rel="stylesheet" href="css/style1.css" type="text/css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script>
+		window.onload=function(){
+			new WOW().init();//初始化
+		}
+    </script>
+        <!-- 爱心点击 -->
+  <script>
+        !function(e, t, a) {
+            function r() {
+                for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+                requestAnimationFrame(r)
+            }
+            function n() {
+                var t = "function" == typeof e.onclick && e.onclick;
+                e.onclick = function(e) {
+                    t && t(),
+                        o(e)
+                }
+            }
+            function o(e) {
+                var a = t.createElement("div");
+                a.className = "heart",
+                    s.push({
+                        el: a,
+                        x: e.clientX - 5,
+                        y: e.clientY - 5,
+                        scale: 1,
+                        alpha: 1,
+                        color: c()
+                    }),
+                    t.body.appendChild(a)
+            }
+            function i(e) {
+                var a = t.createElement("style");
+                a.type = "text/css";
+                try {
+                    a.appendChild(t.createTextNode(e))
+                } catch(t) {
+                    a.styleSheet.cssText = e
+                }
+                t.getElementsByTagName("head")[0].appendChild(a)
+            }
+            function c() {
+                return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
+            }
+            var s = [];
+            e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
+                function(e) {
+                    setTimeout(e, 1e3 / 60)
+                },
+                i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
+                n(),
+                r()
+        } (window, document);
+    </script>
+    <!-- 爱心点击代码结束 --> 
+</head>
+<body>
+    <!-- header -->
+    <header>
+
+                    <dl id="h_dl1" >
+                        <dt><img src="images/1.jpg" alt=""></dt>
+                    
+                        
+                        <dd aos="fade-left" ><a href="lxwm.html">联系我们</a></dd>   
+                          <dd aos="fade-left" aos-delay="200"><a href="gywm.html">关于我们</a></dd>
+                         <dd aos="fade-left" aos-delay="300"><a href="fwys.html">服务优势</a></dd>
+                        <dd aos="fade-left" aos-delay="400"><a href="news.html">行内新闻</a></dd> 
+                        <dd aos="fade-left" aos-delay="500"><a href="jpxl.html">精品线路</a></dd>
+                        <dd aos="fade-left" aos-delay="600"><a href="index1.html">网站首页</a></dd>      
+                    </dl>
+          <ul id="banner">
+              <li><img src="images/2.jpg" alt=""><a aos="fade-up" aos-delay="100"
+                  href="">欧洲戈壁之旅，感受世界之壮观</br>
+                <span>Enjoy a trip to the beach and the cliffs</span></a></li>
+              <li><img src="images/3.jpg" alt=""><a aos="fade-up" aos-delay="2000"
+                 href="">休闲度假南半球，慢调生活</br>
+                <span>Feel the sound of mountain and nature</span></a></li>
+              <li><img src="images/4.jpg" alt=""><a aos="fade-up" aos-delay="3000"
+                 href="">欧洲曼妙之旅，海港之声</br>
+                <span>Enjoy the sound of the European seaport</span></a></li>
+          </ul>
+          <ul id="jt">
+              <li><a class="left" href="#"><</a></li>
+              <li><a  class="right" href="#">></a></li>
+          </ul>
+          <ul id="anv">
+              <li class="anv" ></li>
+              <li></li>
+              <li></li>
+          </ul>
+          <div class="zj">
+                <div class="tp" aos="fade-up"><img src="images/5.jpg" alt=""/></div>
+                <div class="z_zj" aos="fade-up">
+                   <ul>
+                    <li>多项度假出行路线</li>
+                    <li>&nbsp;SAUNDERS公司致力于休闲度假旅游的
+                        定制与服务业务，可带您感受世界的景色和...</li>
+                </ul></div>
+                <div class="tp" aos="fade-up" aos-delay="400"><img src="images/6.jpg" alt=""/></div>
+                 <div class="z_zj" aos="fade-up" aos-delay="400" >
+                        <ul>
+                         <li>多项度假出行路线</li>
+                         <li>&nbsp;SAUNDERS公司致力于休闲度假旅游的
+                             定制与服务业务，可带您感受世界的景色和...</li>
+                     </ul></div>
+                <div class="tp" aos="fade-up" aos-delay="800"><img src="images/7.jpg" alt=""/></div>
+                <div class=" z_zj1" aos="fade-up" aos-delay="800">
+                        <ul class="ul3">
+                         <li>多项度假出行路线</li>
+                         <li>&nbsp;SAUNDERS公司致力于休闲度假旅游的
+                             定制与服务业务，可带您感受世界的景色和...</li>
+                     </ul></div>
+            </div>
+     
+  </div>  
+    </header>
+    <!-- main -->
+    <main>
+            <dl class="m_dl1">
+                    <dt>热销项目</dt>
+                    <dd class="wow bounceIn"><a href="">跟团游</a></dd>
+                    <dd class="wow bounceIn"><a href="">境内游</a></dd>
+                    <dd class="wow bounceIn"><a href="">欧洲行</a></dd>
+                    <dd class="wow bounceIn"><a href="">自由行</a></dd>
+                    <dd class="wow bounceIn"><a href="">全部</a></dd>
+                </dl>
+               <div class="dtp">
+                <ul aos="fade-up">
+                    <li class="li1"><a href=""></a></li>
+                    <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉  <br/><span>自由行 欧洲行 境外游</span>
+                        <span class="jt">→</span></a></li>
+                </ul>
+                    <ul aos="fade-up" aos-delay="200">
+                        <li class="li2"><a href=""></a></li>
+                        <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉 <br/><span>自由行 欧洲行 境外游</span><span class="jt">→</span></a></li>
+                    </ul>
+                    <ul aos="fade-up" aos-delay="400">
+                        <li class="li3"><a href=""></a></li>
+                        <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉 <br/><span>自由行 欧洲行 境外游</span><span class="jt">→</span></a></li>
+                    </ul>
+                    <ul aos="fade-up" aos-delay="600">
+                        <li class="li4"><a href=""></a></li>
+                        <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉 <br/><span>自由行 欧洲行 境外游</span><span class="jt">→</span></a></li>
+                    </ul>
+                    <ul aos="fade-up" aos-delay="700">
+                        <li class="li5"><a href=""></a></li>
+                        <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉 <br/><span>自由行 欧洲行 境外游</span><span class="jt">→</span></a></li>
+                    </ul>
+                    <ul aos="fade-up" aos-delay="800">
+                        <li class="li6"><a href=""></a></li>
+                        <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉 <br/><span>自由行 欧洲行 境外游</span><span class="jt">→</span></a></li>
+                    </ul>
+                    <ul aos="fade-up" aos-delay="900">
+                        <li class="li7"><a href=""></a></li>
+                        <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉 <br/><span>自由行 欧洲行 境外游</span><span class="jt">→</span></a></li>
+                    </ul>
+                    <ul aos="fade-up" aos-delay="1000">
+                        <li class="li8"><a href=""></a></li>
+                        <li class="li9"><a href="">乞力马扎罗山非洲最高的山脉 <br/><span>自由行 欧洲行 境外游</span><span class="jt">→</span></a></li>
+                    </ul>
+                   
+               </div>
+                <div class="readmore" aos="fade-up" aos-delay="1100"><a href="">READ MORE</a></div>
+                <div class="ps">
+                        <ul >
+                            <li aos="fade-left" class="p_li1"></li>
+                            <li aos="fade-up" aos-delay="500" class="p_li2"><a  aos="fade-up" aos-delay="700" href="">关于我们 <br/> <span>致力于休闲度假旅游的定制与服务业务，可带您感受世界的景色</span></a></li>
+                            <li aos="fade-up" aos-delay="800" class="p_li3"></li>
+                            <li aos="fade-right" aos-delay="1200" class="p_li4"></li>
+                        </ul>
+                    </div>
+                    <div class="mm">
+                            <div class="ynzx">业内资讯</div>
+                            <dl class="m_n" aos="fade-right" >
+                                <dt ></dt>
+                                <dd><a href=""> 野外摄影师真是个高危又萌翻的职业 <br/><span>在进行照相时，光通过小
+                                    孔（更多时候是一个透镜组）进入暗盒，在暗盒背部（相对于光入射方向）的介质上成像。根据实际光强度和介质感光能力的不
+                                    同，要求的光照时间也不同。在光照过程中，介质被感光</span></a></dd>
+                                <dd></dd>
+                            </dl>
+                            <dl class="m_n" aos="fade-up" aos-delay="200">
+                                <dt class="m_dt1"></dt>
+                                <dd><a href=""> 野外摄影师真是个高危又萌翻的职业 <br/><span>在进行照相时，光通过小
+                                    孔（更多时候是一个透镜组）进入暗盒，在暗盒背部（相对于光入射方向）的介质上成像。根据实际光强度和介质感光能力的不
+                                    同，要求的光照时间也不同。在光照过程中，介质被感光</span></a></dd>
+                                <!-- <dd></dd> -->
+                            </dl>
+                            <dl class="m_n" aos="fade-left" aos-delay="400">
+                                <dt  class="m_dt2"></dt>
+                                <dd><a href=""> 野外摄影师真是个高危又萌翻的职业 <br/><span>在进行照相时，光通过小
+                                    孔（更多时候是一个透镜组）进入暗盒，在暗盒背部（相对于光入射方向）的介质上成像。根据实际光强度和介质感光能力的不
+                                    同，要求的光照时间也不同。在光照过程中，介质被感光</span></a></dd>
+                                <!-- <dd></dd> -->
+                            </dl>
+                        </div>
+                        <!-- 背景 -->
+                        <div class="bj" >
+                            <ul class="lg" aos="fade-right" aos-delay="50">
+                                <li><a href=""><span>多种选择 <br/><span class="span1">多条旅游度假线路备选</span></span></a></li>
+                                <li ><a href=""><span>安全性 <br/><span class="span1">多条旅游度假线路备选</span></span></a></li>
+                            </ul>
+                            <ul class="sg" aos="fade-right" aos-delay="0">
+                                <li><a href=""><span>多种选择 <br/><span class="span1">多条旅游度假线路备选</span></span></a></li>
+                                <li><a href=""><span>安全性 <br/><span class="span1">多条旅游度假线路备选</span></span></a></li>
+                                <li><a href=""><span>多种选择 <br/><span class="span1">多条旅游度假线路备选</span></span></a></li>
+                            </ul>
+                        </div>
+                        <!--浏览量-->
+    <div class="demo" aos="fade-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <div class="counter-content">
+                            <div class="counter-icon fa fa-globe"></div>
+                            <span class="counter-value">1250</span>
+                        </div>
+                        <h3 class="title">合作景区</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter red">
+                        <div class="counter-content">
+                            <div class="counter-icon fa fa-rocket"></div>
+                            <span class="counter-value">952</span>
+                        </div>
+                        <h3 class="title">专业团队</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter blue">
+                        <div class="counter-content">
+                            <div class="counter-icon fa fa-briefcase"></div>
+                            <span class="counter-value">578</span>
+                        </div>
+                        <h3 class="title">旗下分公司</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter purple">
+                        <div class="counter-content">
+                            <div class="counter-icon fa fa-mobile"></div>
+                            <span class="counter-value">1450</span>
+                        </div>
+                        <h3 class="title">客户数量</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 表单 -->
+    <div id="dbd" aos="fade-up">
+    <dl id="bd" aos="fade-up">
+        <dt>信息发送SAUNDERS <br><span>Write a message to us</span>
+        <span class="hx"></span></dt>
+        <dd ><input  class="input" type="text" placeholder="姓名/Name"></dd>
+        <div  class="no1" href=""></div>
+        <dd><input class="input" type="text" placeholder="电话/Phone"></dd>
+        <div  class="no2" href=""></div>
+        <dd><input class="input" type="text" placeholder="业务类型/Subject"></dd>
+        <div  class="no3" href=""></div>
+        <dd><input class="input" type="text" placeholder="电子邮箱/E-mail"></dd>
+        <div  class="no4" href=""></div>
+        <dd class="textarea"><textarea class="input"  name="" id=""  placeholder="内容/text"></textarea></dd>
+        <dd ><input id="submit" type="submit" value="将信息发送至SAUNDERS"></dd>
+</dl>
+</div>
+            </main>
+            <footer>
+                <div class="f_mb">
+                 <dl  class="f_dl1" aos="fade-right">
+                     <dt>SAUNDERS资讯</dt>
+                     <dd><a href=""></a></dd>
+                     <dd><a href="">在旅行作为一种社会行为，古代即以存在，中国是
+                         世界文明古国之一，旅行活动的兴起同样居世界前列，中国早在公元
+                         前22世纪就有了。当时最典型的旅
+                         行家大概要数大禹了，他为了疏浚九江十八河，游览了大好河山。</a></dd>
+                 </dl>
+                 <dl aos="fade-right">
+                     <dt>SAUNDERS资讯</dt>
+                     <dd><a href=""></a></dd>
+                     <dd><a href="">为了证明伊朗岩石之乡的攀岩潜市场并非如人们
+                         所想的那般微渺，新浪潮(New Wave)建筑公司在 Polue 建起了
+                         一处新的攀岩建筑。该建筑矗立于伊朗的最高峰之前，建筑内外
+                         墙均可攀爬；碎片化的设计与周围的景致相融合，
+                         既最大化了日光利用率，又让攀岩者充分感受到该地的自然景观。。</a></dd>
+                 </dl>
+                    <dl class="f_dl3" aos="fade-left">
+                        <dt>快速导航入口</dt>
+                        <dd><a href="">网站首页 <span>Home</span></a></dd>
+                        <dd><a href="">精品路线 <span>Tourst route</span></a></dd>
+                        <dd><a href="">行业新闻 <span>New center</span></a></dd>
+                        <dd><a href="">服务优势 <span>Advantage</span></a></dd>
+                        <dd><a href="">关于我们 <span>About Us</span></a></dd>
+                        <dd><a href="">联系我们 <span>Concent Us</span></a></dd>
+                    </dl>
+                    <dl class="f_dl4" aos="fade-left">
+                        <dt>精品度假路线</dt>
+                        <dd></dd>
+                        <dd></dd>
+                        <dd></dd>
+                        <dd></dd>
+                        <dd></dd>
+                        <dd></dd>
+                    </dl>
+                </div>
+                <div class="jy" ><a href="">Copyright@lmm 2018-2019  旅游网站</a> </div>
+             </footer>
+    <script>
+        $("h1").on('click',function(e){
+		$("html,body").animate({scrollTop:$(window).height()},1000);
+	});
+	/*
+	注意: aos初始化代码只能放在网页最底端,不能加window.onload(), 否则无法使用.
+	*/	
+		AOS.init({
+			easing: 'ease-out-back',
+			duration: 1000
+		});
+        var oBanner=document.getElementById('banner');
+        var oImg=document.getElementById("banner").getElementsByTagName('img')[0];
+        var oLeft=document.getElementsByClassName("left")[0];
+        var oRight=document.getElementsByClassName("right")[0];
+        var oAnv=document.getElementById("anv").getElementsByTagName('li');
+        var i=0;
+        var timer=0;
+        var len =oAnv.length;
+        function play(){
+            list();
+            oBanner.style.left="-"+i+"00%";
+             i++;
+             if(i>2){
+                 i=0;
+             }
+        }
+        function time(){
+            timer=setInterval(play,1000);
+        }
+        time();
+        function list(){
+            for(var a=0;a<len;a++){
+            oAnv[a].className="";
+            }
+            oAnv[i].className="anv";
+        }
+        // oBanner.onmouseover=function(){ clearInterval(timer); }
+        // oBanner.onmouseout=function(){   time();}
+        //划过
+        function show(){
+            for(let j=0;j<len ;j++){
+        oAnv[j].onmouseover=function(){
+                i=j;
+                play();
+        }
+            }
+        }
+        show();
+        // 点击
+        oLeft.onclick  = oRight.onclick=function(){
+            if(this==oLeft){
+             i--;
+              if(i==-1)i=len-1;
+             
+            }else{
+                i++;
+                if(i==3)i=0;
+            }
+            list();
+            oBanner.style.left="-"+i+"00%";
+        }
+//计时器
+
+        </script>
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('.counter-value').each(function(){
+                    $(this).prop('Counter',0).animate({
+                        Counter: $(this).text()
+                    },{
+                        duration: 10000,
+                        easing: 'swing',
+                        step: function (now){
+                        $(this).text(Math.ceil(now));
+                        }
+                    });
+                });
+            });
+        </script>
+        <!-- //表单 -->
+          <script>
+            var oInput=document.getElementsByClassName('input');
+            var oSubmit=document.getElementById('submit');
+            var oNo1=document.getElementsByClassName("no1")[0];
+            var oNo2=document.getElementsByClassName("no2")[0];
+            var oNo3=document.getElementsByClassName("no3")[0];
+            var oNo4=document.getElementsByClassName("no4")[0];
+            var reg=/[a-zA-Z0-9]/;
+            var  reg1=/^[a-zA-Z0-9]{6,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}/;
+            var reg2=/山炮|二逼|脑残|傻逼|草|草尼玛|虎逼|滚|尼玛|/g;
+        //  for(let i=0;i<oInput.length;i++){ 
+        //     oSubmit.onclick=function(){
+        //         if(oInput[i].value==""){
+        //             oInput[i].style.border="1px solid red";
+        //         }
+        //     }
+                for(let i=0;i<oInput.length;i++){
+                        oSubmit.onclick=function(){
+                        if(oInput[i].value ==""){
+                           oInput[i].style.border="1px solid red";
+                           oNo1.style.display="block";
+                           oNo1.innerHTML="请输入此字段"
+                           oNo2.style.display="block";
+                           oNo2.innerHTML="请输入此字段"
+                           oNo3.style.display="block";
+                           oNo3.innerHTML="请输入此字段"
+                           oNo4.style.display="block";
+                           oNo4.innerHTML="请输入此字段"
+                        }
+                        else{
+                            oNo1.style.display="none";
+                            oNo2.style.display="none";
+                            oNo3.style.display="none";
+                            oNo4.style.display="none";
+                        }
+                    } 
+                    oInput[i].onclick=function(){
+                        oInput[i].style.border="none";
+                           oNo1.style.display="none";
+                           oNo2.style.display="none";
+                           oNo3.style.display="none";
+                           oNo4.style.display="none";
+                    }
+                }
+            oInput[0].onmouseout=function(){
+                        if(reg.test(oInput[0].value)){ 
+                            oNo1.innerHTML="亲，要Chinese哦，么嘛！";
+                            oNo1.style.display="block";
+                        // alert("");
+                        }else{
+
+                            oNo1.style.display="none";
+                        }
+                    }   
+                    oInput[1].onmouseout=function(){
+                        if(isNaN(oInput[1].value)){
+                            oNo2.innerHTML="手机号不能为字母,汉字";
+                            oNo2.style.display="block";
+                        }else if(oInput[1].value.length<11 ||oInput[1].value.length>11){
+                            oNo2.innerHTML="手机号码必须11位,以13/14/15/16开头";
+                            oNo2.style.display="block";
+                        }else{
+                           
+                            oNo2.style.display="none"; 
+                        }
+                    } 
+                    oInput[3].onmouseout=function(){
+                        if( reg.test(oInput[2].value)){
+                             oNo4.style.display="none";
+                        }else{
+                             oNo4.innerHTML="输出格式错误";
+                             oNo4.style.display="block";
+                            }
+                    }
+                    oInput[4].onkeyup=function(){
+                        oInput[3].value.replace(reg2,"**");
+                    }        
+            </script>
+</html>

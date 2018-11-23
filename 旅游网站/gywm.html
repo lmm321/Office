@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/gywm.css" type="text/css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/aos.js"></script>
+	<script>
+		window.onload=function(){
+			new WOW().init();//初始化
+		}
+    </script>
+    <!-- 爱心点击 -->
+  <script>
+        !function(e, t, a) {
+            function r() {
+                for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+                requestAnimationFrame(r)
+            }
+            function n() {
+                var t = "function" == typeof e.onclick && e.onclick;
+                e.onclick = function(e) {
+                    t && t(),
+                        o(e)
+                }
+            }
+            function o(e) {
+                var a = t.createElement("div");
+                a.className = "heart",
+                    s.push({
+                        el: a,
+                        x: e.clientX - 5,
+                        y: e.clientY - 5,
+                        scale: 1,
+                        alpha: 1,
+                        color: c()
+                    }),
+                    t.body.appendChild(a)
+            }
+            function i(e) {
+                var a = t.createElement("style");
+                a.type = "text/css";
+                try {
+                    a.appendChild(t.createTextNode(e))
+                } catch(t) {
+                    a.styleSheet.cssText = e
+                }
+                t.getElementsByTagName("head")[0].appendChild(a)
+            }
+            function c() {
+                return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
+            }
+            var s = [];
+            e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
+                function(e) {
+                    setTimeout(e, 1e3 / 60)
+                },
+                i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
+                n(),
+                r()
+        } (window, document);
+    </script>
+    <!-- 爱心点击代码结束 --> 
+</head>
+<body>
+      <!-- header -->
+      <header>
+            <dl id="h_dl1" >
+                <dt><img src="images/1.jpg" alt=""></dt>
+            
+                
+                <dd aos="fade-left" ><a href="lxwm.html">联系我们</a></dd>   
+                  <dd aos="fade-left" aos-delay="200"><a href="gywm.html">关于我们</a></dd>
+                 <dd aos="fade-left" aos-delay="300"><a href="fwys.html">服务优势</a></dd>
+                <dd aos="fade-left" aos-delay="400"><a href="news.html">行内新闻</a></dd> 
+                <dd aos="fade-left" aos-delay="500"><a href="jpxl.html">精品线路</a></dd>
+                <dd aos="fade-left" aos-delay="600"><a href="index1.html">网站首页</a></dd>      
+            </dl>
+            </header>
+        <!-- main -->
+        <main>
+            <div id="banner"></div>
+            <div class="zh">
+               <article aos="fade-right" >
+                   <ul>
+                       <li>上海SAUNDERS旅游服务有限公司 </br>
+                        <span>Tourism Service Culture Communication Co., Ltd.</span></li>
+                   </ul>
+               </article>
+               <section aos="fade-left" >
+                   <dl>
+                       <dt>公司简介</dt>
+                       <dd>在1967年的日内瓦会议上，联合国统计委员会提议，应该建立一个单独的游客类别。旅游者至少要逗留24小时，然而，有些游客外出游览但于当日返回了居住地，这些人被称为“短期旅行者（Excursionists）”、这类游客包括了不以就业为目的的一日游者、游船乘客和过境游客。短期
+                           旅行者很容易与其他游客区分开来，因为他们不在目的地过夜。</dd>
+                   </dl>
+                   <dl>
+                       <dt>公司荣誉</dt>
+                       <dd>2018年度世界旅游500强 </br>
+                        2014年度世界商业十大品牌</br>
+                        环球旅行体验大奖The Global Travel Experience Award</br>
+                        中国出境旅游——日韩线十大批发商</br>
+                        从上千全球顶级精品酒店中甄选出上百家精品度假酒店角逐十几个特色奖项如最梦幻泳池，最炫窗景，最WOW体验，最佳亲子度假等等奖项。</br>
+                    </dd>    </dl>
+                    <dl>
+                        <dt>公司理念</dt>
+                        <dd>“旅”是旅行，外出，即为了实现某一目的而在空间上从甲地到乙地的行进过程；“游”是外出游览、观光、娱乐，即为达到这些目的所作的旅行。二者合起来即旅游。所以，旅行偏重于行，旅游不但有“行”，且有观光、娱乐含义。</dd>
+                    </dl>
+               
+               </section>
+            </div>      
+        </main>
+         <!-- footer -->
+         <footer>
+                <ul  aos="fade-left" aos-delay="200" class="footer_ul">
+                    <li>Copyright@lmm 2018-2019  旅游网站</li>
+                </ul>
+            </footer>
+        <script>
+            $("h1").on('click',function(e){
+            $("html,body").animate({scrollTop:$(window).height()},1000);
+        });
+        /*
+        注意: aos初始化代码只能放在网页最底端,不能加window.onload(), 否则无法使用.
+        */	
+            AOS.init({
+                easing: 'ease-out-back',
+                duration: 1000
+            });
+            </script>
+</body>
+</html>
